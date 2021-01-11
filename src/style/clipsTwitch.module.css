@@ -13,12 +13,12 @@
 }
 
 .show {
-  opacity: 100%;
+  opacity: 1;
   transition: 0.5s all ease-in;
 }
 
 .hide {
-  opacity: 0%;
+  opacity: 0;
   transition: 0.5s all ease-out;
 }
 

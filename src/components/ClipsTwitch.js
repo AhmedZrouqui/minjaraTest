@@ -25,10 +25,8 @@ const ClipsTwitch = () => {
         document.getElementsByName("videoplayer")[0].setAttribute("class", s.hide)
         setTimeout(() => {
             document.getElementsByName("videoplayer")[0].setAttribute("src", clips[count].link)
-            setTimeout(() => {
-                document.getElementsByName("videoplayer")[0].setAttribute("class", s.show)
-            }, 400)
-        }, 1000)
+            document.getElementsByName("videoplayer")[0].setAttribute("class", s.show)
+        }, 500)
         console.log(count)
     }
 

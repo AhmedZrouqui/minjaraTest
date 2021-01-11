@@ -1,0 +1,76 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 70%;
+  margin-top: 100px;
+}
+
+.aboutUs .title {
+  color: #7a7a7a;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 30px;
+}
+
+.aboutUs .title::after {
+  content: "";
+  height: 6px;
+  width: 60%;
+  background: #0066a7;
+  position: absolute;
+  left: 20%;
+  bottom: -10px;
+}
+
+.howItBegunWrapper {
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+}
+
+.howItBegun {
+  margin-top: 80px;
+  flex: 1;
+}
+
+.howItBegun .howItBegunTitle {
+  text-transform: uppercase;
+  margin-right: 14px;
+  position: relative;
+  color: #a6a6a6;
+  font-size: 25px;
+}
+
+.howItBegun h3 {
+  margin-bottom: 20px;
+}
+
+.howItBegun .howItBegunTitle::before {
+  content: "";
+  height: 90%;
+  width: 4px;
+  background: #0092ee;
+  position: absolute;
+  left: -10px;
+  top: 5%;
+}
+
+.howItBegun p {
+  color: #ababab;
+  max-width: 100%;
+  line-height: 140%;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.minjaraLogo {
+  flex: 1;
+  display: flex;
+}
+
+.minjaraLogo img {
+  max-width: 400px;
+  margin: auto;
+}

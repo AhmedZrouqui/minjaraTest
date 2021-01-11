@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  width: 70%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  margin-top: 25px;
+}
+
+.logo,
+.nav {
+  display: flex;
+  flex: 1;
+}
+
+.minjara {
+  max-width: 100px;
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  list-style: none;
+  padding: 0 40px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: White;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+.navLink::after {
+  content: "";
+  width: 8px;
+  height: 3px;
+  background: #0092ee;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.5s all ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+  transition: 0.5s all ease;
+}

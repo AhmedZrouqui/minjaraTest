@@ -4,7 +4,6 @@ import minjara from '../images/minjara-white.png';
 
 
 const AboutUs = () => {
-
     return(
 
         <div className = {s.aboutUs} id="about">
@@ -19,7 +18,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className = {s.minjaraLogo}>
-                    <img src= {minjara}></img>
+                    <img src= {minjara} alt ="minjara"></img>
                 </div>
             </div>
         </div>

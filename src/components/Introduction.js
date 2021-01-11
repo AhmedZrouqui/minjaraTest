@@ -1,5 +1,5 @@
 import React from 'react';
-import minjaraBlue from '../images/minjara-blue.png';
+import minjaraBlue from '../images/minjaratop.png';
 import s from '../style/Introduction.module.css';
 
 const Introduction = () => {
@@ -21,7 +21,7 @@ const Introduction = () => {
                 <button onClick = {joinDiscordHandler}>Join Us Now</button>
             </div>
             <div className={s.coverImage}>
-                <img src={minjaraBlue} alt=""/>
+                <img src={minjaraBlue} alt="minjaraTopLogo"/>
             </div>
         </div>
     );

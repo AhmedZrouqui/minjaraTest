@@ -9,15 +9,43 @@ const ClipsTwitch = () => {
     const clips = [
         {
             id :1,
-            link : 'https://clips.twitch.tv/embed?clip=AffluentCrunchyHawkDxCat&parent=minjara.netlify.app'
+            link : 'https://clips.twitch.tv/embed?clip=AffluentCrunchyHawkDxCat'+parent
         },
         {
             id : 2,
-            link : 'https://clips.twitch.tv/embed?clip=IcyBloodyGoatDogFace&parent=minjara.netlify.app'
+            link : 'https://clips.twitch.tv/embed?clip=IcyBloodyGoatDogFace'+parent
         },
         {
             id : 3,
             link : 'https://clips.twitch.tv/embed?clip=ManlyFlirtyBobaMoreCowbell'+parent
+        },
+        {
+            id : 4,
+            link : 'https://clips.twitch.tv/embed?clip=SeductiveScrumptiousWebTheTarFu'+parent
+        },
+        {
+            id : 5,
+            link : 'https://clips.twitch.tv/embed?clip=AttractiveCrypticWalrusFailFish'+parent
+        },
+        {
+            id:6,
+            link : 'https://clips.twitch.tv/embed?clip=ArtisticSuperBottleDerp'+parent
+        },
+        {
+            id:7,
+            link : 'https://clips.twitch.tv/embed?clip=WrongTrappedBeaverPJSalt'+parent
+        },
+        {
+            id:8,
+            link : 'https://clips.twitch.tv/embed?clip=TawdryArtsyZucchiniTF2John'+parent
+        },
+        {
+            id:9,
+            link : 'https://clips.twitch.tv/embed?clip=CalmSpookyCodHoneyBadger'+parent
+        },
+        {
+            id:10,
+            link : 'https://clips.twitch.tv/embed?clip=PeacefulSmellyTildeEleGiggle'+parent
         }
     ]
 

@@ -68,9 +68,11 @@ const ClipsTwitch = () => {
         let i = getClipIndex(link);
         let direction = e.target.alt;
 
-        switch (direction) {
-            case "right" : rightSwitchHandler(i);break
-            case "left" : leftSwitchHandler(i);break
+        if (direction === "right"){
+            rightSwitchHandler(i);
+        }
+        else {
+            leftSwitchHandler(i);
         }
         
     } 
